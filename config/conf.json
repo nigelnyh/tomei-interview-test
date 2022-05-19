@@ -1,0 +1,41 @@
+{
+  "local": {
+    "db": {
+      "name": "tomei",
+      "host": "localhost",
+      "port": 5432,
+      "user": "postgres",
+      "pass": "123",
+      "timezone": "Asia/Kuala_Lumpur"
+    },
+    "key": "key",
+    "default_password": "password",
+    "saltRounds": 14
+  },
+  "dev": {
+    "db": {
+      "name": "tomei",
+      "host": "localhost",
+      "port": 5432,
+      "user": "postgres",
+      "pass": "123",
+      "timezone": "Asia/Kuala_Lumpur"
+    },
+    "key": "key",
+    "default_password": "password",
+    "saltRounds": 14
+  },
+  "prod": {
+    "db": {
+      "name": "",
+      "host": "",
+      "port": 5432,
+      "user": "",
+      "pass": "",
+      "timezone": "Asia/Kuala_Lumpur"
+    },
+    "key": "key",
+    "default_password": "password",
+    "saltRounds": 14
+  }
+}

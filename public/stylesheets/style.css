@@ -1,0 +1,167 @@
+/* body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+} */
+
+a {
+  color: #00B7FF;
+}
+
+content {
+  max-width: 80%;
+  margin: auto;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgLogo {
+  margin: 30px 0px;
+}
+
+.mid-container {
+  max-width: 80%;
+  margin: 0px auto 60px auto;
+}
+
+.status {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.status > .step {
+  width: 25%;
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+.status > .step:not(:first-child)::before {
+  content: '';
+  height: 3px;
+  background: #006ace;
+  position: absolute;
+  width: calc(100% - 70px);
+  top: 40px;
+  right: calc(50% + 35px);
+}
+
+.step > p {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+  width: 105px;
+  margin: 1em auto;
+}
+
+.btm-container {
+  max-width: 80%;
+  margin: 0px auto;
+}
+
+.btmContHead p {
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 21px;
+  color: #000;
+  background-color: #C5DCFA;
+}
+
+.formInfo {
+  margin-bottom: 30px;
+}
+
+.formInfo p {
+  margin: 1em 1em;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 0px 10%;
+}
+
+.avatarInput {
+  margin-right: 50px;
+}
+
+.avatarInput > label {
+  cursor: pointer;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+}
+
+.avatarInput > label p{
+  text-align: center;
+  margin: 0px auto;
+}
+
+.detailsInput {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field > label {
+  font-family: Open Sans;
+  font-weight: 500;
+  font-size: 16px;
+  color: #C7C7C7;
+}
+
+.field > input[type=text], input[type=email], input[type=password] {
+  width: 95%;
+  height: 25px;
+  border: 1px solid #C7C7C7;
+  border-radius: 5px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnSubmit {
+  height: 45px;
+  width: 180px;
+  border-radius: 5px;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 16px;
+  color: #0A3977;
+  background-color: #C5DCFA;
+  border: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btnSubmit p {
+  margin: 0px;
+  position: relative;
+  top: 10px;
+  right: 5px;
+}
+
+.btnSubmit img {
+  position: relative;
+  top: 10px;
+  right: -10px;
+}
